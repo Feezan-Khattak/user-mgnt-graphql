@@ -19,7 +19,7 @@ import org.springframework.validation.annotation.Validated;
 public class UserResolver {
     private final UserService userService;
 
-    @GraphQLQuery(name = "SignIn")
+    @GraphQLMutation(name = "SignIn")
     public Response signInUser(
             @GraphQLArgument(name = "signIn") @Validated SignInRequest signInRequest
     ) {
