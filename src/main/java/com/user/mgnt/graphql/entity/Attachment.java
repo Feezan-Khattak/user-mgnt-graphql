@@ -12,6 +12,7 @@ import java.sql.Timestamp;
 @Table(name = "attachment")
 @Entity
 public class Attachment extends BaseEntity {
+    @Lob
     private String data;
     private String name;
     @Column(name = "content_type")
