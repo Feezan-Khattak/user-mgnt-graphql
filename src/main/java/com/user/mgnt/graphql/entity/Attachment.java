@@ -1,6 +1,5 @@
 package com.user.mgnt.graphql.entity;
 
-
 import javax.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
